@@ -30,7 +30,7 @@ h2 {
 div.content {
     margin-top: 2pc;
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%,-50%);
     padding: 40px 20px;
