@@ -68,18 +68,19 @@ canvas#myChart {
 }
 
 
-/* LAPTOP SIZE */
+/* MOBILE SIZE */
 
 @media screen and (max-width:500px) and (min-width:300px) {
     div.banner {
         padding: 10px 20px;
-        width: 300px;
-        background-position: 12pc;
+        width: 350px;
+        background-position: 15pc;
+        bottom: 60%;
     }
 
     div.content {
-        height: 400px;
-        width: 300px;
+        height: 350px;
+        width: 350px;
     }
     
     p {
@@ -108,7 +109,7 @@ canvas#myChart {
 
     canvas#myChart {
         width:80%;
-        max-width:500px;
+        max-width:600px;
     }
 
 }
