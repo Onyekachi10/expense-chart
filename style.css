@@ -13,8 +13,10 @@ div.banner {
     background-image: url("./images/logo.svg");
     background-repeat: no-repeat;
     background-position: 36pc;
-    position: relative;
-    left: 10pc;
+    position: absolute;
+    bottom: 70%;
+    transform: translate(-50%, -50%);
+    left: 50%;
 }
 
 div.banner span, h2 {
@@ -27,8 +29,10 @@ h2 {
 
 div.content {
     margin-top: 2pc;
-    position: relative;
-    left: 10pc;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     padding: 40px 20px;
     height: 600px;
     width: 700px;
@@ -46,6 +50,11 @@ p {
     top: 1pc;
     left: 9pc;
     margin-bottom: 0;
+    color: hsl(29, 47%, 32%);
+}
+
+p.p2 {
+    color: black;
 }
 
 
@@ -61,6 +70,45 @@ canvas#myChart {
 
 /* LAPTOP SIZE */
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:500px) and (min-width:300px) {
+    div.banner {
+        padding: 10px 20px;
+        width: 300px;
+        background-position: 12pc;
+    }
+
+    div.content {
+        height: 400px;
+        width: 300px;
+    }
     
+    p {
+        left: 2pc; 
+        bottom: 1pc;
+        font-size: 12px; 
+    }
+
+    p.p2 {
+        position: relative;
+        left: 2pc;
+        bottom: 1pc;
+    }
+
+    span {
+        font-size: 12px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    canvas#myChart {
+        width:80%;
+        max-width:500px;
+    }
+
 }
