@@ -75,12 +75,13 @@ canvas#myChart {
         padding: 10px 20px;
         width: 350px;
         background-position: 15pc;
-        bottom: 60%;
+        bottom: 80%;
     }
 
     div.content {
         height: 350px;
         width: 350px;
+        top: 40%;
     }
     
     p {
@@ -108,7 +109,7 @@ canvas#myChart {
     }
 
     canvas#myChart {
-        width:80%;
+        width:90%;
         max-width:600px;
     }
 
